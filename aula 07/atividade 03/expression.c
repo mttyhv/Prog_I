@@ -9,6 +9,8 @@ int f(int x, int n) {
 	return pow(x, n) + f(x, n-1);
 }
 
+//Realizar essa função sem utilizar a função "math.pow()".
+
 int main() {
 	int x, n;
 	scanf("%d %d", &x, &n);
